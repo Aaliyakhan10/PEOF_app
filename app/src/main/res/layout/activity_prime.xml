@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prime"
+    android:background="#F0ECC5"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etP"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:textSize="20sp"
+            android:hint="Enter a number"
+            android:inputType="text"
+            android:textColor="#D75757"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnPs"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="62dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#E6A5A5"
+            android:textSize="25sp"
+            android:text="Check "
+            android:textColorLink="@color/ic_launcher_background"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:textSize="30sp"
+
+            android:textColor="#B84141"
+            android:textStyle="bold" />
+
+</LinearLayout>
